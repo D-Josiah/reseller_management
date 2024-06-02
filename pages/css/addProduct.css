@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  height: 10%;
+  background-color: black;
+  color: white;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+header img {
+  padding-left: 30px;
+  width: 70px;
+}
+main {
+    height: 80%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+
+.backBtnWrapper {
+  display: flex;
+  justify-content: end;
+}
+.backBtn {
+  width: 40px;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+}
+
+form input {
+  width: 400px;
+  height: 40px;
+  background-color: lightgrey;
+  border-style: none;
+  border-radius: 50px;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.submit {
+    margin-top: 20px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: large;
+  }
+  
+  .submit:hover {
+    font-size: larger;
+    background-color: gray;
+    border-style: none;
+  }
+  
+
+.priceWrapper {
+  display: flex;
+  gap: 10px;
+  width: 400px;
+}
+
+.priceWrapper input {
+  width: 50%;
+}
+
+.productImg {
+  background-color: white;
+  border-radius: 0;
+}
+textarea {
+  width: 400px;
+  height: 100px;
+}
+

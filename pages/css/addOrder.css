@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  height: 10%;
+  background-color: black;
+  color: white;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+header img {
+  padding-left: 30px;
+  width: 70px;
+}
+main {
+  height: 80%;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.backBtnWrapper {
+  display: flex;
+  justify-content: end;
+}
+.backBtn {
+  width: 40px;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+}
+
+form input {
+  width: 400px;
+  height: 40px;
+  background-color: lightgrey;
+  border-style: none;
+  border-radius: 50px;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.submit {
+  margin-top: 20px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  font-size: large;
+}
+
+.submit:hover {
+  font-size: larger;
+  background-color: gray;
+  border-style: none;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+}
+
+/** difference starts here**/
+table {
+  width: 100%;
+  overflow: auto;
+}
+td {
+  height: 30px;
+  background-color: lightgray;
+
+  width: 170px;
+  text-align: center;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.product_details {
+  width: 170px;
+}
+
+.addWrapper {
+  display: flex;
+  justify-content: end;
+}
+
+select {
+  width: 200px;
+  height: 40px;
+  background-color: lightgray;
+  border-radius: 50px;
+  border-style: none;
+}
+
+.add {
+  width: 30px;
+}

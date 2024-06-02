@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url("images/wave.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  gap: 15px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding-left: 30px;
+  height: 10%;
+}
+main {
+  height: 80%;
+  display: flex;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7%;
+  padding-left: 5%;
+  width: 60%;
+  gap: 30px;
+}
+
+.left h1 {
+  font-size: 50px;
+}
+
+.left input {
+  width: 42%;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border-style: solid;
+}
+
+.password {
+  margin-left: 20px;
+}
+
+header img {
+  width: 50px;
+}
+
+.login {
+  width: 150px !important;
+  background-color: black;
+  color: white;
+  font-size: large;
+}
+
+.login:hover {
+  font-size: larger;
+  background-color: gray;
+  border-style: none;
+}
+
+.hero {
+  position: absolute;
+  width: 650px;
+  bottom: 3%;
+  left: 52%;
+}
+
+footer {
+  height: 10%;
+  background-color: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.companyWrapper,
+.supportWrapper,
+.creditsWrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: small;
+}
+
+.companyWrapper img,
+.supportWrapper img,
+.creditsWrapper img {
+  width: 30px;
+}
+
+.website {
+  text-decoration: none;
+  color: white;
+}
